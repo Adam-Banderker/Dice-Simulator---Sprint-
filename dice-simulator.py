@@ -9,10 +9,10 @@ print ("There will be 9 rounds, 2 players and only 1 winner, GoodLuck!\n") # pri
 """Random Dice generator"""
 def dice_roll(): # defined a roll dice function
     diceRoll = random.randint(1, 6) # the dice generate random numbers between 1 - 6 and it is stored a variable
-    return diceRoll #if the function is called, the value will be return to display
+    return diceRoll #if the function is called, the value of the dice roll will be returned to display
 
 """The beginning of the game"""
-def main(): # deifined the main function that calls the game features
+def main(): # defined the main function that calls the game features
     player1 = 0 #player 1 starts off with a score of 0
     player1wins = 0 # player 1 wins states the number of rounds won so he/she starts off with 0
     player2 = 0 #player 2 starts off with a score of 0
